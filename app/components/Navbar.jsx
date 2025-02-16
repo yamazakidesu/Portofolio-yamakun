@@ -19,9 +19,9 @@ const Navbar = () => {
       <Image src={assets.header_bg_color} alt='' className='w-full' />
     </div>
      <nav className='w-full fixed px-5 lg:px-8 xl:px-[-8%] py-4 
-     flex items-center justify-between z-50'>
+     flex items-center justify-between z-50' style={{zIndex:999}}>
         <a href='#top'>
-            <Image src={assets.logo} className='w-28  alt="" cursor-pointer mr-14'/>
+            <Image src={assets.logo} alt='' className='w-28 cursor-pointer mr-14'/>
         </a>
 
         <ul className='hidden md:flex items-center gap-6 lg:gap-8 

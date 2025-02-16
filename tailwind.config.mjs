@@ -10,13 +10,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        lightHover: "#bd50e6",
-        darkHover: "#2a004a",
+        lightHover: "#DFD7AC",
+        darkHover: "#F4F1E3",
         darkTheme: "#0a0a0a",
       },
       fontFamily: {
         Outfit: ["Outfit", "sans-serif" ],
         Ovo: ["Ovo", "serif"]
+      },
+      boxShadow: {
+        'black' : '4px 4px 0 #000',
+        'white' : '4px 4px 0 #fff',
       }
     },
   },
